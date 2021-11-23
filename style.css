@@ -6,6 +6,10 @@
 header{
     display: flex;
 }
+
+body{
+  background-image: url(./images/Untitled_Artwork.png);
+}
 .opening-card h4{
   color: #5b63f4ce;
 }
@@ -29,13 +33,13 @@ a:hover{
 }
 .opening-card{
     margin: 5%;
-    margin-left: 3%;
+    margin-left: 5%;
     margin-top: 13%;
     padding: 2%;
 }
 
 .cards{
-  background-color: rgba(255, 255, 255, 0.797);
+  background-color: rgba(255, 255, 255, 0.948);
     text-align: center;
     margin: 3% 20%;
     padding: 1.5rem;
@@ -158,6 +162,14 @@ section {
       margin-left: -20px;
       padding: -25px;
     }
+    #profile-img{
+      width: 50%;
+      height: auto;
+      margin-left:40%;
+      margin-top: 5%;
+      margin-bottom: -5%;
+    }
+  
     
   }
   
