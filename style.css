@@ -9,6 +9,7 @@ header{
 
 body{
   background-image: url(./images/Untitled_Artwork.png);
+  background-color: #d5e7f6;
 }
 .opening-card h4{
   color: #5b63f4ce;
@@ -62,7 +63,7 @@ a:hover{
 }
 
 #profile-img{
-    margin-left: 60%;
+    margin-left: 65%;
     margin-top: -16%;
     width: 455px;
     height: 455px;
@@ -147,15 +148,16 @@ section {
   }
 
   
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 940px) {
     .contact-card{
       flex-direction: column;
       width: 120%;
-      margin: 0 20px;
+      margin: 0 5px;
     }
     .left {
       width: 140%;
       height: 400px;
+      padding: 10%;
     }
     .right img{
       margin-top: -105%;
@@ -163,11 +165,22 @@ section {
       padding: -25px;
     }
     #profile-img{
-      width: 50%;
+      width: 55%;
       height: auto;
-      margin-left:40%;
-      margin-top: 5%;
+      margin-top: -460px;
+      margin-left: 60%;
       margin-bottom: -5%;
+      box-shadow: box-shadow:
+      0 2.8px 2.2px rgba(150,150,150, 0.034),
+      0 6.7px 5.3px rgba(150,150,150, 0.048),
+      0 12.5px 10px rgba(150,150,150, 0.06),
+      0 22.3px 17.9px rgba(150,150,150, 0.052),
+      0 41.8px 33.4px rgba(150,150,150, 0.066),
+      0 100px 80px rgba(150,150,150, 0.09)
+    }
+
+    .welcome-text{
+      margin-top: 220px;
     }
   
     
